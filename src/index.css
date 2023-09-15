@@ -1,0 +1,374 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.truck{
+  display: flex;
+  justify-content: flex-start;
+  width: 21px;
+  margin-top: 15px;
+ height: 12.9px;
+ color: #626262;
+ border: 0.4px solid #191919;
+}
+.header1{
+  display:flex;
+  justify-content:space-around;
+  margin: auto;
+  padding: 0px 0px;
+  font-family: poppins;
+  size: 40px;
+  line-height: 15px;
+  color: #626262;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #1a1a1a;
+  
+}
+
+.header1>button{
+  background-color:#191919;
+  color: #626262;
+  line-height: 18px;
+  padding: 3px 3px;
+}
+.shopkart{
+  display: flex;
+  background-color: #191919;
+  color: #ffffff;
+  font-family: Work Sans;
+  border-top: 1px solid blue ;
+
+  
+
+}
+
+.shopkart,h1{
+  margin-right: auto;
+  font-family: poppins;
+  font-weight: 275px;
+  font-size: 40px;
+  padding-bottom: 0px;;
+  line-height:60px ;
+  border-bottom: 1px solid #FFFFFF;
+ padding-left: 5px;
+
+}
+.shopkart,btn{
+  font-family: Work Sans;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 16.42px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+
+}
+.btn{
+  padding-top: 80px;
+  color: #FFFFFF;
+  background-color: #191919;
+  font-weight: 40px;
+  border: none;
+}
+.nav-bar{
+  background-color: #191919;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-btn{
+
+  font-family: Work Sans;
+  font-weight: 400px;
+  font-size:18px;
+  color: #FFFFFF;
+  background-color: #191919;
+  border: none;
+  font-weight:400px ;
+width: 71px;
+height: 28px;
+top: 115px;
+left: 137px;
+line-height: 21.11px;
+margin: 17px;
+  
+}
+
+
+
+.headerlast,img1{
+  margin-left: auto;
+  width: 432px;
+  height: 654.95px;
+  top: 133.05px;
+  left: 999px;
+padding-left: 1008px;
+background-color:#191919;
+padding-bottom: 104px;
+
+
+}
+.img-2{
+  background-color: #F07E15;
+  margin-left: -1220px;
+  height: 354.3px;
+  width: 993px;
+  margin-top: 344.62px;
+  margin-bottom: -660px;
+  margin-right: -657px;
+  border: 1px solid #FFFFFF;
+  
+}
+
+.Footer1{
+color:#FFFFFF;
+background-color: #191919;
+display: flex;
+flex-direction: column; 
+width:1440px;
+height: 520px;
+top: 1562px;
+
+}
+.news{
+  padding-top: 15px;
+  width: 385px;
+  height: 52px;
+  top: 1644px;
+  left: 103px;
+  font-family: Syne;
+  font-weight: 600px;
+  size: 26px;
+  line-height: 31.2px;
+  color: #FFFFFF80 ;
+}
+.para{
+  width: 337px;
+  height: 52px;
+  top: 1661px;
+  left: 103px;
+  font-family: Work Sans;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 21.11px;
+  color: #FFFFFF80;
+}
+.input{
+  display:flex;
+  flex-direction: column;
+  margin-left: 450px;
+  margin-bottom: 2px;
+  width: 303px;
+  border: 1px solid #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 21.11px;
+  
+  
+}
+.btn2{
+  width: 181px;
+  height: 181px;
+ 
+  border-radius: 50% 50%;
+  padding: 50px 50px;
+  border: 2px solid #F07E15;
+  background-color: #191919;
+  color: #F07E15;
+  margin-left: 750px;
+  font-size:26px ;
+  font-family: Work Sans;
+  line-height: 16px;
+}
+.footer-text{
+  width: 199px;
+  height: 236px;
+  
+  border: 1px solid #FFFFFF;
+  margin-left: 220px;
+  border: 1px;
+  font-size: 80px;
+  font-weight: 800px;
+  font-family: Syne;
+  line-height: 102.6px;
+  padding-top: 15px;
+  margin-top: -128px;
+}
+footer{
+  background-color:#000000;
+  color: #FFFFFF;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 12px;
+  line-height:18px ;
+  padding: 10px 10px;
+  height: 18px;
+  
+}
+.Apparel-title{
+  width: 689px;
+  height: 80px;
+  margin-left: 2px;
+  font-family: Syne;
+  font-size: 90px;
+  font-weight: 600px;
+  border-bottom: 1px solid #191919;
+  
+}
+.btn-app{
+  margin-top: -50px;
+  background-color: #FFFFFF;
+  border: none;
+  width: 120px;
+  height: 25px;
+  font-family: Work Sans;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 16.42px;
+  color: #000000;
+  margin-left: 16px;
+  margin: 3px;
+  
+  
+  
+}
+.Apparel-btn{
+  display: flex;
+  flex-direction:column-reverse;
+  margin-bottom: 90px;
+  
+  
+  
+}
+.Cart-img{
+
+  border: 0.5px solid blueviolet ;
+  width: 310px;
+  height: 322px;
+  top: 998px;
+  left: 346px;
+  background-color:white;
+}
+.Cart-info{
+  width: 310px;
+  height: 330px;
+  padding: 0px,8px,0px,8px;
+  gap: 8px;
+  text-align: start;
+  
+  
+}
+.Cart-title{
+  width: 258px;
+  font-family: Syne;
+  font-weight: 300px;
+  font-size: 26px;
+  line-height: 31.2px;
+  margin-top: -5px;
+
+}
+.description{
+  width: 303px;
+  height: 49px;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.42px;
+  color: #16161580;
+  margin-top: -15px;
+  
+  
+}
+.price{
+  width: 258px;
+  height: 30px;
+  font-family: Syne;
+  font-weight: 600px;
+  font-size: 26px;
+  line-height: 31.2px;
+  text-align: start;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 20px;
+}
+.product-list{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-left: 100px;
+  margin-top: -230px;
+  margin-bottom: -50px;
+  
+}
+.img-1{
+  margin-top: -700px;
+  
+}
+.right-arrow{
+  width: 15px;
+  height: 15px;
+  top: 15px;
+  left: 15px;
+  margin-right: auto;
+  
+  
+}
+.navigation-arrows{
+  margin-bottom: 30px;
+  height: 20px;
+}
+.tit-1{
+  width: 689px;
+  height: 151px;
+  top: 280px;
+  left: 115px;
+  font-family: Syne;
+  font-weight: 800px;
+  font-size: 135px;
+  line-height: 102.6px;
+  
+  margin-left: -870px;
+  color: #FFFFFF;
+  padding: 25px 25px;
+  margin-top: 220px;
+}
+.tit-2{
+width: 710px;
+height: 144px;
+top: 396px;
+left: 424px;
+font-family: Syne;
+font-weight: 800px;
+font-size: 135px;
+color: #FFFFFF;
+margin-left: -750px;
+margin-top: -170px;
+}
+.tit-3{
+width: 527px;
+height: 103px;
+top: 505px;
+left: 187px;
+font-family: Syne;
+font-weight: 800px;
+font-size: 135px;
+color: #FFFFFF;
+margin-left: -825px;
+margin-top: -100px;
+}
+.page{
+  width: 85px;
+  height: 21px;
+  border: 1 px solid #FFFFFF;
+  color: #FFFFFF;
+  margin-left: -1005px;
+  margin-top: -60px;
+  font-size:18px ;
+}
